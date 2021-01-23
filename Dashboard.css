@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cer {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10vh 5%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background-color: #adb5bd;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
